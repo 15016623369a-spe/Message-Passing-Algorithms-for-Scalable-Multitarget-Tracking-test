@@ -1,0 +1,13 @@
+# Generated experiment outputs and notebook execution state
+results/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/

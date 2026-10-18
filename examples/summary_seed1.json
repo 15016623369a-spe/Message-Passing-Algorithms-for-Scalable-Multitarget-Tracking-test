@@ -1,0 +1,12 @@
+{
+  "steps": 200,
+  "particles": 10000,
+  "seed": 1,
+  "runtime_seconds": 4.125100083183497,
+  "expected_count_MAE": 0.05196910801333767,
+  "detected_count_MAE": 0.045,
+  "mean_position_OSPA_m": 14.921987974553769,
+  "all_BP_converged": true,
+  "max_BP_iterations": 740,
+  "estimated_track_labels": 5
+}
