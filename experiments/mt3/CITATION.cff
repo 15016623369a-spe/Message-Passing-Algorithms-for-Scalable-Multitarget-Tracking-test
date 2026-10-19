@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "For the MT3 experiment, cite Pinto et al. (2021) and acknowledge the original JulianoLagana/MT3 implementation. This directory is an unofficial notebook adaptation."
+type: software
+title: "MT3 notebook experiment and short-run validation"
+repository-code: "https://github.com/15016623369a-spe/Message-Passing-Algorithms-for-Scalable-Multitarget-Tracking-test"
+authors:
+  - name: "15016623369a-spe"
+preferred-citation:
+  type: article
+  title: "Next Generation Multitarget Trackers: Random Finite Set Methods vs Transformer-based Deep Learning"
+  authors:
+    - {family-names: Pinto, given-names: Juliano}
+    - {family-names: Hess, given-names: Georg}
+    - {family-names: Ljungbergh, given-names: William}
+    - {family-names: Xia, given-names: Yuxuan}
+    - {family-names: Svensson, given-names: Lennart}
+    - {family-names: Wymeersch, given-names: Henk}
+  year: 2021
+  doi: "10.48550/arXiv.2104.00734"
+  url: "https://arxiv.org/abs/2104.00734"

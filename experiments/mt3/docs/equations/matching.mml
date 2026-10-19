@@ -1,0 +1,78 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" data-latex="\hat{\pi}=\arg\min_{\pi\;\mathrm{injective}}\sum_{j=1}^{n}\!\left(\lVert \hat{x}_{\pi(j)}-y_j\rVert_2-\hat{p}_{\pi(j)}\right)" display="block">
+  <mrow data-mjx-texclass="ORD" data-latex="\hat{\pi}">
+    <mover>
+      <mi data-latex="\pi">&#x3C0;</mi>
+      <mo stretchy="false">^</mo>
+    </mover>
+  </mrow>
+  <mo data-latex="=">=</mo>
+  <mi data-latex="\arg">arg</mi>
+  <mo data-mjx-texclass="NONE">&#x2061;</mo>
+  <munder data-latex="\min_{\pi\;\mathrm{injective}}">
+    <mo data-mjx-texclass="OP" movablelimits="true" data-latex="\min">min</mo>
+    <mrow data-mjx-texclass="ORD" data-latex="{\pi\;\mathrm{injective}}">
+      <mi data-latex="\pi">&#x3C0;</mi>
+      <mstyle scriptlevel="0" data-latex="\;">
+        <mspace width="0.278em"></mspace>
+      </mstyle>
+      <mrow data-mjx-texclass="ORD" data-latex="\mathrm{injective}">
+        <mi data-mjx-auto-op="false" data-latex="injective">injective</mi>
+      </mrow>
+    </mrow>
+  </munder>
+  <munderover data-latex="\sum_{j=1}^{n}">
+    <mo data-latex="\sum">&#x2211;</mo>
+    <mrow data-mjx-texclass="ORD" data-latex="{j=1}">
+      <mi data-latex="j">j</mi>
+      <mo data-latex="=">=</mo>
+      <mn data-latex="1">1</mn>
+    </mrow>
+    <mrow data-mjx-texclass="ORD" data-latex="{n}">
+      <mi data-latex="n">n</mi>
+    </mrow>
+  </munderover>
+  <mspace width="-0.167em" data-latex="\!"></mspace>
+  <mrow data-mjx-texclass="INNER" data-latex="\left(\lVert \hat{x}_{\pi(j)}-y_j\rVert_2 -\hat{p}_{\pi(j)}\right)">
+    <mo data-mjx-texclass="OPEN" data-latex="\left(">(</mo>
+    <mo data-mjx-texclass="OPEN" fence="false" stretchy="false" data-latex="\lVert">&#x2016;</mo>
+    <msub data-latex="\hat{x}_{\pi(j)}">
+      <mrow data-mjx-texclass="ORD" data-latex="\hat{x}">
+        <mover>
+          <mi data-latex="x">x</mi>
+          <mo stretchy="false">^</mo>
+        </mover>
+      </mrow>
+      <mrow data-mjx-texclass="ORD" data-latex="{\pi(j)}">
+        <mi data-latex="\pi">&#x3C0;</mi>
+        <mo data-latex="(" stretchy="false">(</mo>
+        <mi data-latex="j">j</mi>
+        <mo data-latex=")" stretchy="false">)</mo>
+      </mrow>
+    </msub>
+    <mo data-latex="-">&#x2212;</mo>
+    <msub data-latex="y_j">
+      <mi data-latex="y">y</mi>
+      <mi data-latex="j">j</mi>
+    </msub>
+    <msub data-latex="\rVert_2">
+      <mo data-mjx-texclass="CLOSE" fence="false" stretchy="false" data-latex="\rVert">&#x2016;</mo>
+      <mn data-latex="2">2</mn>
+    </msub>
+    <mo data-latex="-">&#x2212;</mo>
+    <msub data-latex="\hat{p}_{\pi(j)}">
+      <mrow data-mjx-texclass="ORD" data-latex="\hat{p}">
+        <mover>
+          <mi data-latex="p">p</mi>
+          <mo stretchy="false">^</mo>
+        </mover>
+      </mrow>
+      <mrow data-mjx-texclass="ORD" data-latex="{\pi(j)}">
+        <mi data-latex="\pi">&#x3C0;</mi>
+        <mo data-latex="(" stretchy="false">(</mo>
+        <mi data-latex="j">j</mi>
+        <mo data-latex=")" stretchy="false">)</mo>
+      </mrow>
+    </msub>
+    <mo data-mjx-texclass="CLOSE" data-latex="\right)">)</mo>
+  </mrow>
+</math>

@@ -1,5 +1,19 @@
 # Message Passing Algorithms for Scalable Multitarget Tracking test
 
+<!-- MT3 experiment index -->
+本仓库现在包含两项独立的多目标跟踪实验：原有BP实验，以及新增的 **MT3（Transformer）实验**。仓库名称沿用原BP项目名称。
+
+| 实验 | Notebook | 方法与结果 | 主要来源 |
+|---|---|---|---|
+| BP：粒子置信传播跟踪 | [MTT_BP_Python.ipynb](MTT_BP_Python.ipynb) | 本页下方及[实现说明](docs/IMPLEMENTATION.md) | Meyer等，IEEE TSP 2017 |
+| MT3：Transformer集合预测 | [MT3_Reproduction.ipynb](experiments/mt3/MT3_Reproduction.ipynb) | [运行说明](experiments/mt3/README.md)、[方法机理](experiments/mt3/docs/METHOD.md)、[实验报告](experiments/mt3/docs/EXPERIMENT_REPORT.md) | Pinto等，2021，[arXiv:2104.00734](https://arxiv.org/abs/2104.00734) |
+
+MT3已完成短程训练与流程验证，未完成论文精度复现。两项实验使用不同场景和指标（BP的OSPA、MT3的GOSPA），示例数值不能直接作为算法性能排名。MT3依赖与运行入口在`experiments/mt3/`中，根目录命令对应BP。
+
+---
+
+## BP实验
+
 基于置信传播（Belief Propagation，BP）的多目标跟踪实验，提供可独立运行的 Python / Jupyter Notebook。
 
 ## 论文与代码来源

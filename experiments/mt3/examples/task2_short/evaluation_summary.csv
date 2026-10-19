@@ -1,0 +1,4 @@
+method,windows,gospa_mean,gospa_std,localization_mean,missed_mean,false_mean,count_MAE,prob_gospa_mean,detr_last_mean
+MT3,2,9.0,2.0,0.0,9.0,0.0,9.0,1.9966024160385132,10.881007194519043
+Random (upstream),2,9.0,2.0,0.0,9.0,0.0,9.0,1.7797656059265137,3.133601188659668
+True measurements (oracle),2,4.2222912311553955,1.287815809249878,2.7222913336008787,1.5,0.0,1.5,0.47568657994270325,1.7234885096549988

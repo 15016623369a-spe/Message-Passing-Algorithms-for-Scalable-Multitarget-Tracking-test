@@ -1,0 +1,67 @@
+[
+  {
+    "id": "attention",
+    "latex": "A(Q,K,V)=\\operatorname{softmax}_{\\mathrm{row}}\\!\\left(\\frac{QK^{\\mathsf T}}{\\sqrt{d_k}}\\right)V",
+    "source": "https://github.com/JulianoLagana/MT3/blob/c1270e1de5b8d68eab50a797d16061310fa95d97/src/modules/models/mt3/transformer.py; simplified single-head form, row-vector convention",
+    "fontSizePx": 24,
+    "color": "#17202a",
+    "widthPx": 384.48,
+    "heightPx": 61.092,
+    "svg": "attention.svg",
+    "mathml": "attention.mml",
+    "renderer": "4.1.3",
+    "editableAsEquation": false
+  },
+  {
+    "id": "refinement",
+    "latex": "r_i^{(\\ell+1)}=\\sigma\\!\\left(\\operatorname{logit}(r_i^{(\\ell)})+\\Delta_i^{(\\ell)}\\right),\\qquad \\hat{x}_i=20\\left(r_i^{(L)}-\\tfrac12\\right)",
+    "source": "https://github.com/JulianoLagana/MT3/blob/c1270e1de5b8d68eab50a797d16061310fa95d97/src/modules/models/mt3/mt3.py and transformer.py; current [-10,10] field of view",
+    "fontSizePx": 24,
+    "color": "#17202a",
+    "widthPx": 558.06,
+    "heightPx": 43.008,
+    "svg": "refinement.svg",
+    "mathml": "refinement.mml",
+    "renderer": "4.1.3",
+    "editableAsEquation": false
+  },
+  {
+    "id": "matching",
+    "latex": "\\hat{\\pi}=\\arg\\min_{\\pi\\;\\mathrm{injective}}\\sum_{j=1}^{n}\\!\\left(\\lVert \\hat{x}_{\\pi(j)}-y_j\\rVert_2-\\hat{p}_{\\pi(j)}\\right)",
+    "source": "https://github.com/JulianoLagana/MT3/blob/c1270e1de5b8d68eab50a797d16061310fa95d97/src/modules/loss.py: compute_hungarian_matching; order=1, n<=16",
+    "fontSizePx": 24,
+    "color": "#17202a",
+    "widthPx": 419.09760000000006,
+    "heightPx": 69.48960000000001,
+    "svg": "matching.svg",
+    "mathml": "matching.mml",
+    "renderer": "4.1.3",
+    "editableAsEquation": false
+  },
+  {
+    "id": "training-loss",
+    "latex": "\\mathcal{L}=\\mathcal{L}^{\\mathrm{final}}_{\\mathrm{DETR}}+\\sum_{\\ell=1}^{5}\\mathcal{L}^{(\\ell)}_{\\mathrm{DETR}}+\\mathcal{L}^{\\mathrm{enc}}_{\\mathrm{DETR}}+4\\mathcal{L}_{\\mathrm{contrastive}}",
+    "source": "https://github.com/JulianoLagana/MT3/blob/c1270e1de5b8d68eab50a797d16061310fa95d97/src/training.py; configs/models/mt3.yaml; default architecture",
+    "fontSizePx": 24,
+    "color": "#17202a",
+    "widthPx": 500.53919999999994,
+    "heightPx": 70.67760000000001,
+    "svg": "training-loss.svg",
+    "mathml": "training-loss.mml",
+    "renderer": "4.1.3",
+    "editableAsEquation": false
+  },
+  {
+    "id": "gospa",
+    "latex": "D(X,\\hat{X})=\\min_{\\gamma}\\left[\\sum_{(i,j)\\in\\gamma}\\lVert x_i-\\hat{x}_j\\rVert_2+\\frac{c}{2}\\bigl(|X|+|\\hat{X}|-2|\\gamma|\\bigr)\\right],\\qquad p=1,\\ \\alpha=2,\\ c=2",
+    "source": "https://github.com/JulianoLagana/MT3/blob/c1270e1de5b8d68eab50a797d16061310fa95d97/src/modules/loss.py: compute_orig_gospa_matching; partial one-to-one assignments gamma",
+    "fontSizePx": 24,
+    "color": "#17202a",
+    "widthPx": 863.9856000000001,
+    "heightPx": 80.2224,
+    "svg": "gospa.svg",
+    "mathml": "gospa.mml",
+    "renderer": "4.1.3",
+    "editableAsEquation": false
+  }
+]

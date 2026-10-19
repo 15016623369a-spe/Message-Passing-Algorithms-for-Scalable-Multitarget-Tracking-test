@@ -1,0 +1,44 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" data-latex="A(Q,K,V)=\operatorname{softmax}_{\mathrm{row}}\!\left(\frac{QK^{\mathsf T}}{\sqrt{d_k}}\right)V" display="block">
+  <mi data-latex="A">A</mi>
+  <mo data-latex="(" stretchy="false">(</mo>
+  <mi data-latex="Q">Q</mi>
+  <mo data-latex=",">,</mo>
+  <mi data-latex="K">K</mi>
+  <mo data-latex=",">,</mo>
+  <mi data-latex="V">V</mi>
+  <mo data-latex=")" stretchy="false">)</mo>
+  <mo data-latex="=">=</mo>
+  <msub data-latex="\operatorname{softmax}_{\mathrm{row}}">
+    <mi data-latex="\operatorname{softmax}">softmax</mi>
+    <mrow data-mjx-texclass="ORD" data-latex="{\mathrm{row}}">
+      <mrow data-mjx-texclass="ORD" data-latex="\mathrm{row}">
+        <mi data-mjx-auto-op="false" data-latex="row">row</mi>
+      </mrow>
+    </mrow>
+  </msub>
+  <mspace width="-0.167em" data-latex="\!"></mspace>
+  <mrow data-mjx-texclass="INNER" data-latex="\left(\frac{QK^{\mathsf T}}{\sqrt{d_k}}\right)">
+    <mo data-mjx-texclass="OPEN" data-latex="\left(">(</mo>
+    <mfrac data-latex="\frac{QK^{\mathsf T}}{\sqrt{d_k}}">
+      <mrow data-latex="QK^{\mathsf T}">
+        <mi data-latex="Q">Q</mi>
+        <msup data-latex="K^{\mathsf T}">
+          <mi data-latex="K">K</mi>
+          <mrow data-mjx-texclass="ORD" data-latex="{\mathsf T}">
+            <mrow data-mjx-texclass="ORD" data-latex="\mathsf T">
+              <mi mathvariant="sans-serif" data-latex="T">T</mi>
+            </mrow>
+          </mrow>
+        </msup>
+      </mrow>
+      <msqrt data-latex="\sqrt{d_k}">
+        <msub data-latex="d_k">
+          <mi data-latex="d">d</mi>
+          <mi data-latex="k">k</mi>
+        </msub>
+      </msqrt>
+    </mfrac>
+    <mo data-mjx-texclass="CLOSE" data-latex="\right)">)</mo>
+  </mrow>
+  <mi data-latex="V">V</mi>
+</math>

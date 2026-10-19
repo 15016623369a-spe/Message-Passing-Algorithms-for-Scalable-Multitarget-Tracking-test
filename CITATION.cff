@@ -1,26 +1,7 @@
 cff-version: 1.2.0
-message: "Please cite the 2017 paper below and acknowledge Florian Meyer's original MATLAB implementation at https://github.com/meyer-ucsd/MTT-PIEEE-18. This repository is an unofficial Python/Jupyter port."
+message: "Please cite the original paper for the experiment used: Meyer et al., IEEE TSP 2017, DOI 10.1109/TSP.2017.2688966 for BP (docs/BP_CITATION.cff); Pinto et al., 2021, arXiv:2104.00734 for MT3 (experiments/mt3/CITATION.cff). Acknowledge each original code repository."
 type: software
-title: "Message Passing Algorithms for Scalable Multitarget Tracking test"
+title: "Message Passing Algorithms for Scalable Multitarget Tracking test: BP and MT3 notebooks"
 repository-code: "https://github.com/15016623369a-spe/Message-Passing-Algorithms-for-Scalable-Multitarget-Tracking-test"
 authors:
   - name: "15016623369a-spe"
-preferred-citation:
-  type: article
-  title: "A Scalable Algorithm for Tracking an Unknown Number of Targets Using Multiple Sensors"
-  authors:
-    - family-names: Meyer
-      given-names: Florian
-    - family-names: Braca
-      given-names: Paolo
-    - family-names: Willett
-      given-names: Peter
-    - family-names: Hlawatsch
-      given-names: Franz
-  journal: "IEEE Transactions on Signal Processing"
-  year: 2017
-  volume: 65
-  issue: 13
-  start: 3478
-  end: 3493
-  doi: "10.1109/TSP.2017.2688966"

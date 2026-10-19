@@ -1,0 +1,76 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" data-latex="\mathcal{L}=\mathcal{L}^{\mathrm{final}}_{\mathrm{DETR}}+\sum_{\ell=1}^{5}\mathcal{L}^{(\ell)}_{\mathrm{DETR}}+\mathcal{L}^{\mathrm{enc}}_{\mathrm{DETR}}+4\mathcal{L}_{\mathrm{contrastive}}" display="block">
+  <mrow data-mjx-texclass="ORD" data-latex="\mathcal{L}">
+    <mi data-mjx-variant="-tex-calligraphic" mathvariant="script" data-latex="L">L</mi>
+  </mrow>
+  <mo data-latex="=">=</mo>
+  <msubsup data-latex="\mathcal{L}^{\mathrm{final}}_{\mathrm{DETR}}">
+    <mrow data-mjx-texclass="ORD" data-latex="\mathcal{L}">
+      <mi data-mjx-variant="-tex-calligraphic" mathvariant="script" data-latex="L">L</mi>
+    </mrow>
+    <mrow data-mjx-texclass="ORD" data-latex="{\mathrm{DETR}}">
+      <mrow data-mjx-texclass="ORD" data-latex="\mathrm{DETR}">
+        <mi data-mjx-auto-op="false" data-latex="DETR">DETR</mi>
+      </mrow>
+    </mrow>
+    <mrow data-mjx-texclass="ORD" data-latex="{\mathrm{final}}">
+      <mrow data-mjx-texclass="ORD" data-latex="\mathrm{final}">
+        <mi data-mjx-auto-op="false" data-latex="final">final</mi>
+      </mrow>
+    </mrow>
+  </msubsup>
+  <mo data-latex="+">+</mo>
+  <munderover data-latex="\sum_{\ell=1}^{5}">
+    <mo data-latex="\sum">&#x2211;</mo>
+    <mrow data-mjx-texclass="ORD" data-latex="{\ell=1}">
+      <mi data-latex="\ell">&#x2113;</mi>
+      <mo data-latex="=">=</mo>
+      <mn data-latex="1">1</mn>
+    </mrow>
+    <mrow data-mjx-texclass="ORD" data-latex="{5}">
+      <mn data-latex="5">5</mn>
+    </mrow>
+  </munderover>
+  <msubsup data-latex="\mathcal{L}^{(\ell)}_{\mathrm{DETR}}">
+    <mrow data-mjx-texclass="ORD" data-latex="\mathcal{L}">
+      <mi data-mjx-variant="-tex-calligraphic" mathvariant="script" data-latex="L">L</mi>
+    </mrow>
+    <mrow data-mjx-texclass="ORD" data-latex="{\mathrm{DETR}}">
+      <mrow data-mjx-texclass="ORD" data-latex="\mathrm{DETR}">
+        <mi data-mjx-auto-op="false" data-latex="DETR">DETR</mi>
+      </mrow>
+    </mrow>
+    <mrow data-mjx-texclass="ORD" data-latex="{(\ell)}">
+      <mo data-latex="(" stretchy="false">(</mo>
+      <mi data-latex="\ell">&#x2113;</mi>
+      <mo data-latex=")" stretchy="false">)</mo>
+    </mrow>
+  </msubsup>
+  <mo data-latex="+">+</mo>
+  <msubsup data-latex="\mathcal{L}^{\mathrm{enc}}_{\mathrm{DETR}}">
+    <mrow data-mjx-texclass="ORD" data-latex="\mathcal{L}">
+      <mi data-mjx-variant="-tex-calligraphic" mathvariant="script" data-latex="L">L</mi>
+    </mrow>
+    <mrow data-mjx-texclass="ORD" data-latex="{\mathrm{DETR}}">
+      <mrow data-mjx-texclass="ORD" data-latex="\mathrm{DETR}">
+        <mi data-mjx-auto-op="false" data-latex="DETR">DETR</mi>
+      </mrow>
+    </mrow>
+    <mrow data-mjx-texclass="ORD" data-latex="{\mathrm{enc}}">
+      <mrow data-mjx-texclass="ORD" data-latex="\mathrm{enc}">
+        <mi data-mjx-auto-op="false" data-latex="enc">enc</mi>
+      </mrow>
+    </mrow>
+  </msubsup>
+  <mo data-latex="+">+</mo>
+  <mn data-latex="4">4</mn>
+  <msub data-latex="\mathcal{L}_{\mathrm{contrastive}}">
+    <mrow data-mjx-texclass="ORD" data-latex="\mathcal{L}">
+      <mi data-mjx-variant="-tex-calligraphic" mathvariant="script" data-latex="L">L</mi>
+    </mrow>
+    <mrow data-mjx-texclass="ORD" data-latex="{\mathrm{contrastive}}">
+      <mrow data-mjx-texclass="ORD" data-latex="\mathrm{contrastive}">
+        <mi data-mjx-auto-op="false" data-latex="contrastive">contrastive</mi>
+      </mrow>
+    </mrow>
+  </msub>
+</math>

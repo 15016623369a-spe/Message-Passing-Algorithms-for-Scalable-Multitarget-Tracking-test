@@ -1,0 +1,96 @@
+{
+  "data_generation": {
+    "seed": 1,
+    "n_timesteps": 20,
+    "max_objects": 16,
+    "n_prediction_lag": 0,
+    "dt": 0.1,
+    "p_add": 0.0,
+    "p_remove": 0.0,
+    "p_meas": 1.0,
+    "sigma_q": 0,
+    "sigma_y": 0,
+    "n_avg_false_measurements": 0,
+    "n_avg_starting_objects": 4,
+    "avg_gt_objects": 3.1,
+    "field_of_view_lb": -10,
+    "field_of_view_ub": 10,
+    "mu_x0": [
+      0,
+      0
+    ],
+    "std_x0": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "mu_v0": [
+      0,
+      0
+    ],
+    "std_v0": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  "arch": {
+    "num_queries": 16,
+    "d_model": 256,
+    "d_detections": 2,
+    "encoder": {
+      "n_heads": 8,
+      "n_layers": 6,
+      "dim_feedforward": 2048,
+      "dropout": 0.1
+    },
+    "decoder": {
+      "n_heads": 8,
+      "n_layers": 6,
+      "dim_feedforward": 2048,
+      "dropout": 0.1
+    },
+    "d_prediction_hidden": 128,
+    "n_prediction_layers": 3,
+    "with_state_refine": true,
+    "two_stage": true
+  },
+  "loss": {
+    "type": "detr",
+    "cutoff_distance": 2.0,
+    "order": 1,
+    "alpha": 2,
+    "c_loss_multiplier": 4,
+    "return_intermediate": true,
+    "contrastive_classifier": true,
+    "false_classifier": false,
+    "existence_prob_cutoff": 0.9
+  },
+  "training": {
+    "n_gradient_steps": 20,
+    "learning_rate": 5e-05,
+    "batch_size": 1,
+    "reduce_lr_patience": 50000,
+    "reduce_lr_factor": 0.25,
+    "checkpoint_interval": 200000,
+    "device": "cpu"
+  },
+  "debug": {
+    "print_interval": 100,
+    "enable_plot": true,
+    "plot_interval": 10000,
+    "save_plot_figs": true,
+    "save_plot_figs_interval": 10000,
+    "print_reduce_lr_messages": true
+  }
+}

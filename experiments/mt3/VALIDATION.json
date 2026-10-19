@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "source_files_unchanged": true,
+  "serial_generator_matches_original_for_both_tasks": true,
+  "notebook_code_cells_executed_per_case": 10,
+  "cases": [
+    {
+      "task": "task1",
+      "optimizer_steps_this_run": 20,
+      "evaluation_windows": 8,
+      "parameter_count": 18118165,
+      "checkpoint_reload_verified": true,
+      "python": "3.12.14",
+      "versions": {
+        "torch": "2.14.1",
+        "numpy": "2.5.4",
+        "scipy": "1.18.1",
+        "matplotlib": "3.11.2",
+        "pandas": "3.0.6",
+        "PyYAML": "6.0.3"
+      }
+    },
+    {
+      "task": "task2",
+      "optimizer_steps_this_run": 2,
+      "evaluation_windows": 2,
+      "parameter_count": 18118165,
+      "checkpoint_reload_verified": true,
+      "python": "3.12.14",
+      "versions": {
+        "torch": "2.14.1",
+        "numpy": "2.5.4",
+        "scipy": "1.18.1",
+        "matplotlib": "3.11.2",
+        "pandas": "3.0.6",
+        "PyYAML": "6.0.3"
+      }
+    }
+  ],
+  "scope": "Pipeline validation only; no paper-scale training or PMBM/delta-GLMB comparison.",
+  "installed_directory_fresh_kernel_execution": true,
+  "installed_run": "results_mt3/task1_quick_20261019_132345_797388",
+  "publication_validation": {
+    "date": "2026-10-19",
+    "fresh_kernel_default_notebook_executed": true,
+    "code_cells_executed": 10,
+    "task1_metrics_equal_saved_example": true,
+    "repository_root_and_experiment_root_discovery": true,
+    "source_sha256_checked_files": 43,
+    "example_csv_and_summary_checked": [
+      "task1_short",
+      "task2_short"
+    ],
+    "local_document_links_checked": 91,
+    "equations_rendered_and_visually_checked": 5,
+    "notebook_outputs_stripped_for_publication": true,
+    "full_profile_meaning": "Original YAML settings, not a strict paper configuration."
+  }
+}

@@ -1,0 +1,76 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" data-latex="r_i^{(\ell+1)}=\sigma\!\left(\operatorname{logit}(r_i^{(\ell)})+\Delta_i^{(\ell)}\right),\qquad \hat{x}_i=20\left(r_i^{(L)}-\tfrac12\right)" display="block">
+  <msubsup data-latex="r_i^{(\ell+1)}">
+    <mi data-latex="r">r</mi>
+    <mi data-latex="i">i</mi>
+    <mrow data-mjx-texclass="ORD" data-latex="{(\ell+1)}">
+      <mo data-latex="(" stretchy="false">(</mo>
+      <mi data-latex="\ell">&#x2113;</mi>
+      <mo data-latex="+">+</mo>
+      <mn data-latex="1">1</mn>
+      <mo data-latex=")" stretchy="false">)</mo>
+    </mrow>
+  </msubsup>
+  <mo data-latex="=">=</mo>
+  <mi data-latex="\sigma">&#x3C3;</mi>
+  <mspace width="-0.167em" data-latex="\!"></mspace>
+  <mrow data-mjx-texclass="INNER" data-latex="\left(\operatorname{logit}(r_i^{(\ell)})+\Delta_i^{(\ell)}\right)">
+    <mo data-mjx-texclass="OPEN" data-latex="\left(">(</mo>
+    <mi data-latex="\operatorname{logit}">logit</mi>
+    <mo data-mjx-texclass="NONE">&#x2061;</mo>
+    <mo data-latex="(" stretchy="false">(</mo>
+    <msubsup data-latex="r_i^{(\ell)}">
+      <mi data-latex="r">r</mi>
+      <mi data-latex="i">i</mi>
+      <mrow data-mjx-texclass="ORD" data-latex="{(\ell)}">
+        <mo data-latex="(" stretchy="false">(</mo>
+        <mi data-latex="\ell">&#x2113;</mi>
+        <mo data-latex=")" stretchy="false">)</mo>
+      </mrow>
+    </msubsup>
+    <mo data-latex=")" stretchy="false">)</mo>
+    <mo data-latex="+">+</mo>
+    <msubsup data-latex="\Delta_i^{(\ell)}">
+      <mi mathvariant="normal" data-latex="\Delta">&#x394;</mi>
+      <mi data-latex="i">i</mi>
+      <mrow data-mjx-texclass="ORD" data-latex="{(\ell)}">
+        <mo data-latex="(" stretchy="false">(</mo>
+        <mi data-latex="\ell">&#x2113;</mi>
+        <mo data-latex=")" stretchy="false">)</mo>
+      </mrow>
+    </msubsup>
+    <mo data-mjx-texclass="CLOSE" data-latex="\right)">)</mo>
+  </mrow>
+  <mo data-latex=",">,</mo>
+  <mspace width="2em" data-latex="\qquad"></mspace>
+  <msub data-latex="\hat{x}_i">
+    <mrow data-mjx-texclass="ORD" data-latex="\hat{x}">
+      <mover>
+        <mi data-latex="x">x</mi>
+        <mo stretchy="false">^</mo>
+      </mover>
+    </mrow>
+    <mi data-latex="i">i</mi>
+  </msub>
+  <mo data-latex="=">=</mo>
+  <mn data-latex="20">20</mn>
+  <mrow data-mjx-texclass="INNER" data-latex="\left(r_i^{(L)}-\tfrac12\right)">
+    <mo data-mjx-texclass="OPEN" data-latex="\left(">(</mo>
+    <msubsup data-latex="r_i^{(L)}">
+      <mi data-latex="r">r</mi>
+      <mi data-latex="i">i</mi>
+      <mrow data-mjx-texclass="ORD" data-latex="{(L)}">
+        <mo data-latex="(" stretchy="false">(</mo>
+        <mi data-latex="L">L</mi>
+        <mo data-latex=")" stretchy="false">)</mo>
+      </mrow>
+    </msubsup>
+    <mo data-latex="-">&#x2212;</mo>
+    <mstyle displaystyle="false" data-latex="\tfrac12">
+      <mfrac>
+        <mn data-latex="1">1</mn>
+        <mn data-latex="2">2</mn>
+      </mfrac>
+    </mstyle>
+    <mo data-mjx-texclass="CLOSE" data-latex="\right)">)</mo>
+  </mrow>
+</math>

@@ -1,0 +1,98 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" data-latex="D(X,\hat{X})=\min_{\gamma}\left[\sum_{(i,j)\in\gamma}\lVert x_i-\hat{x}_j\rVert_2+\frac{c}{2}\bigl(|X|+|\hat{X}|-2|\gamma|\bigr)\right],\qquad p=1,\ \alpha=2,\ c=2" display="block">
+  <mi data-latex="D">D</mi>
+  <mo data-latex="(" stretchy="false">(</mo>
+  <mi data-latex="X">X</mi>
+  <mo data-latex=",">,</mo>
+  <mrow data-mjx-texclass="ORD" data-latex="\hat{X}">
+    <mover>
+      <mi data-latex="X">X</mi>
+      <mo stretchy="false">^</mo>
+    </mover>
+  </mrow>
+  <mo data-latex=")" stretchy="false">)</mo>
+  <mo data-latex="=">=</mo>
+  <munder data-latex="\min_{\gamma}">
+    <mo data-mjx-texclass="OP" movablelimits="true" data-latex="\min">min</mo>
+    <mrow data-mjx-texclass="ORD" data-latex="{\gamma}">
+      <mi data-latex="\gamma">&#x3B3;</mi>
+    </mrow>
+  </munder>
+  <mrow data-mjx-texclass="INNER" data-latex="\left[\sum_{(i,j)\in\gamma}\lVert x_i-\hat{x}_j\rVert_2 +\frac{c}{2}\bigl(|X|+|\hat{X}|-2|\gamma|\bigr)\right]">
+    <mo data-mjx-texclass="OPEN" data-latex="\left[">[</mo>
+    <munder data-latex="\sum_{(i,j)\in\gamma}">
+      <mo data-latex="\sum">&#x2211;</mo>
+      <mrow data-mjx-texclass="ORD" data-latex="{(i,j)\in\gamma}">
+        <mo data-latex="(" stretchy="false">(</mo>
+        <mi data-latex="i">i</mi>
+        <mo data-latex=",">,</mo>
+        <mi data-latex="j">j</mi>
+        <mo data-latex=")" stretchy="false">)</mo>
+        <mo data-latex="\in">&#x2208;</mo>
+        <mi data-latex="\gamma">&#x3B3;</mi>
+      </mrow>
+    </munder>
+    <mo data-mjx-texclass="OPEN" fence="false" stretchy="false" data-latex="\lVert">&#x2016;</mo>
+    <msub data-latex="x_i">
+      <mi data-latex="x">x</mi>
+      <mi data-latex="i">i</mi>
+    </msub>
+    <mo data-latex="-">&#x2212;</mo>
+    <msub data-latex="\hat{x}_j">
+      <mrow data-mjx-texclass="ORD" data-latex="\hat{x}">
+        <mover>
+          <mi data-latex="x">x</mi>
+          <mo stretchy="false">^</mo>
+        </mover>
+      </mrow>
+      <mi data-latex="j">j</mi>
+    </msub>
+    <msub data-latex="\rVert_2">
+      <mo data-mjx-texclass="CLOSE" fence="false" stretchy="false" data-latex="\rVert">&#x2016;</mo>
+      <mn data-latex="2">2</mn>
+    </msub>
+    <mo data-latex="+">+</mo>
+    <mfrac data-latex="\frac{c}{2}">
+      <mi data-latex="c">c</mi>
+      <mn data-latex="2">2</mn>
+    </mfrac>
+    <mrow data-mjx-texclass="OPEN" data-latex="\bigl(">
+      <mo minsize="1.2em" maxsize="1.2em">(</mo>
+    </mrow>
+    <mo data-mjx-texclass="ORD" stretchy="false" data-latex="|">|</mo>
+    <mi data-latex="X">X</mi>
+    <mo data-mjx-texclass="ORD" stretchy="false" data-latex="|">|</mo>
+    <mo data-latex="+">+</mo>
+    <mo data-mjx-texclass="ORD" stretchy="false" data-latex="|">|</mo>
+    <mrow data-mjx-texclass="ORD" data-latex="\hat{X}">
+      <mover>
+        <mi data-latex="X">X</mi>
+        <mo stretchy="false">^</mo>
+      </mover>
+    </mrow>
+    <mo data-mjx-texclass="ORD" stretchy="false" data-latex="|">|</mo>
+    <mo data-latex="-">&#x2212;</mo>
+    <mn data-latex="2">2</mn>
+    <mo data-mjx-texclass="ORD" stretchy="false" data-latex="|">|</mo>
+    <mi data-latex="\gamma">&#x3B3;</mi>
+    <mo data-mjx-texclass="ORD" stretchy="false" data-latex="|">|</mo>
+    <mrow data-mjx-texclass="CLOSE" data-latex="\bigr)">
+      <mo minsize="1.2em" maxsize="1.2em">)</mo>
+    </mrow>
+    <mo data-mjx-texclass="CLOSE" data-latex="\right]">]</mo>
+  </mrow>
+  <mo data-latex=",">,</mo>
+  <mspace width="2em" data-latex="\qquad"></mspace>
+  <mi data-latex="p">p</mi>
+  <mo data-latex="=">=</mo>
+  <mn data-latex="1">1</mn>
+  <mo data-latex=",">,</mo>
+  <mtext data-latex="\ ">&#xA0;</mtext>
+  <mi data-latex="\alpha">&#x3B1;</mi>
+  <mo data-latex="=">=</mo>
+  <mn data-latex="2">2</mn>
+  <mo data-latex=",">,</mo>
+  <mtext data-latex="\ ">&#xA0;</mtext>
+  <mi data-latex="c">c</mi>
+  <mo data-latex="=">=</mo>
+  <mn data-latex="2">2</mn>
+</math>

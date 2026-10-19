@@ -11,3 +11,12 @@ venv/
 !.env.example
 .vscode/
 .idea/
+
+
+# MT3 generated artifacts and large model weights
+results_mt3/
+*.pt
+*.pth
+*.executed.ipynb
+.venv/
+__pycache__/

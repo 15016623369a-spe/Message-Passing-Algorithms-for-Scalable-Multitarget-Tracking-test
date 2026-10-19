@@ -1,0 +1,71 @@
+{
+  "paper": "Next Generation Multitarget Trackers: Random Finite Set Methods vs Transformer-based Deep Learning",
+  "paper_url": "https://arxiv.org/abs/2104.00734",
+  "source_repository": "https://github.com/JulianoLagana/MT3",
+  "source_commit": "c1270e1de5b8d68eab50a797d16061310fa95d97",
+  "task": "task2",
+  "profile": "quick",
+  "seed": 0,
+  "eval_seed": 1,
+  "device": "cpu",
+  "python": "3.12.14",
+  "versions": {
+    "torch": "2.14.1",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "pandas": "3.0.6",
+    "PyYAML": "6.0.3"
+  },
+  "parameter_count": 18118165,
+  "optimizer_steps_this_run": 2,
+  "optimizer_steps_total": 2,
+  "batch_size": 1,
+  "evaluation_windows": 2,
+  "training_seconds": 0.5880106668919325,
+  "evaluation_seconds": 0.12490725005045533,
+  "checkpoint_reload_verified": true,
+  "gospa_parameters": {
+    "p": 1,
+    "c": 2.0,
+    "alpha": 2,
+    "existence_threshold": 0.9
+  },
+  "metrics": {
+    "MT3": {
+      "windows": 2,
+      "gospa_mean": 9.0,
+      "gospa_std": 2.0,
+      "localization_mean": 0.0,
+      "missed_mean": 9.0,
+      "false_mean": 0.0,
+      "count_MAE": 9.0,
+      "prob_gospa_mean": 1.996602416,
+      "detr_last_mean": 10.8810071945
+    },
+    "Random (upstream)": {
+      "windows": 2,
+      "gospa_mean": 9.0,
+      "gospa_std": 2.0,
+      "localization_mean": 0.0,
+      "missed_mean": 9.0,
+      "false_mean": 0.0,
+      "count_MAE": 9.0,
+      "prob_gospa_mean": 1.7797656059,
+      "detr_last_mean": 3.1336011887
+    },
+    "True measurements (oracle)": {
+      "windows": 2,
+      "gospa_mean": 4.2222912312,
+      "gospa_std": 1.2878158092,
+      "localization_mean": 2.7222913336,
+      "missed_mean": 1.5,
+      "false_mean": 0.0,
+      "count_MAE": 1.5,
+      "prob_gospa_mean": 0.4756865799,
+      "detr_last_mean": 1.7234885097
+    }
+  },
+  "scope": "Short pipeline demonstration; not a completed paper-scale reproduction.",
+  "created_utc": "2026-10-19T05:21:18.763258+00:00"
+}

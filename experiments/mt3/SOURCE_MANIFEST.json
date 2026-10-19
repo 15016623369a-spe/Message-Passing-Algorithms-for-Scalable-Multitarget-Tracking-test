@@ -1,0 +1,178 @@
+{
+  "repository": "https://github.com/JulianoLagana/MT3",
+  "commit": "c1270e1de5b8d68eab50a797d16061310fa95d97",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "e40082ecd69888d8c103b843626385acd3036a1be780cceede1a549c3ed453c5"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "a3166e2bc61b0e021f25d2617fba2eec4e01a55c9c9e40da94560657215e29eb"
+    },
+    {
+      "path": "README.md",
+      "sha256": "ea576f5410dbfc08588aad633c5fab8591b550402ba58f67577cc9b97a274a2e"
+    },
+    {
+      "path": "conda-env/environment-cpu.yml",
+      "sha256": "be8662e217ee1d29d08930f1af75d5f95e65204d485ea4771dcf47547e52517c"
+    },
+    {
+      "path": "conda-env/environment-gpu.yml",
+      "sha256": "e23a3be08dd735ffc90bbb017313a50325f0fd0335a437de3878717f4a0f535e"
+    },
+    {
+      "path": "configs/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "configs/eval/default.yaml",
+      "sha256": "80dd0c73435521d0c5e19139f145c9cdcc528899f1dd5b9fef130e5f52e2bf50"
+    },
+    {
+      "path": "configs/models/mt3.yaml",
+      "sha256": "37296733ecb0e628fa51af8f52a33f36ca7700c91ed71f37d17f3b60e5b80993"
+    },
+    {
+      "path": "configs/tasks/task1.yaml",
+      "sha256": "df5c35642217dbe0a8ee39229516bcd0b73a19f94282d9359028f2c11ee933d1"
+    },
+    {
+      "path": "configs/tasks/task2.yaml",
+      "sha256": "a79a6a16ecf60b86cc4452a4f02f64d3355b349c77ad96420e83d51fe283366e"
+    },
+    {
+      "path": "src/data_generation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/data_generation/data_generator.py",
+      "sha256": "b719f7218733d55e69e3e6362d98b6e963f5f123ceaf538cb822ec1a70c345a3"
+    },
+    {
+      "path": "src/data_generation/generate_traj.py",
+      "sha256": "53aadbb0c60334a42e32b1df50868da7b84935a9d2cc0345a1dd23e3be0835f1"
+    },
+    {
+      "path": "src/data_generation/mot_data_generation.py",
+      "sha256": "ae1d782422a06d19e50d11ab435a5d7487cc95a13980b8fd51595558be8df98e"
+    },
+    {
+      "path": "src/eval.py",
+      "sha256": "6b9854172f1cdeb5f9218731bd7f81eed2af1b6b896b44ce07003bf43a81068b"
+    },
+    {
+      "path": "src/launch_gui.py",
+      "sha256": "2809c8d6408b934de1de64e2dca4c2a285580b552941979779ba25f29c18ae8b"
+    },
+    {
+      "path": "src/modules/__init__ .py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/modules/contrastive_classifier.py",
+      "sha256": "91cdc7eb0f2e520886eacbee094681df319d17c6e7318d099cd4bf5d4a60c746"
+    },
+    {
+      "path": "src/modules/contrastive_loss.py",
+      "sha256": "2e7a8e476ed2a4be0f028f802855bf5fca5e7529707514e6874be11d7df6b5e6"
+    },
+    {
+      "path": "src/modules/evaluation_gui.py",
+      "sha256": "9d99e687f57addd626be05cc30b9fb7a8f913d081d6b112eccb62bdcc6146879"
+    },
+    {
+      "path": "src/modules/evaluator.py",
+      "sha256": "c998b88adf5057df07f1929fabada64b7fd99b690d5b308fcb4fc73444e83dc8"
+    },
+    {
+      "path": "src/modules/loss.py",
+      "sha256": "ab34548d174bfe9abb120828d62ae139e852dcec24ff9c20242525cb47334f96"
+    },
+    {
+      "path": "src/modules/matcher.py",
+      "sha256": "43641700b14e8c644592551d038496c562094f602651b121b9d9d63e1768b4d8"
+    },
+    {
+      "path": "src/modules/mlp.py",
+      "sha256": "3a00935c434c11e9f5d882497589b273f437201c272098760619c76d35fadb66"
+    },
+    {
+      "path": "src/modules/models/mt3/mt3.py",
+      "sha256": "d3fa3068fb46099dbcd2585136b94092e05d7bedf35c749e9fc9c34a4eba06bc"
+    },
+    {
+      "path": "src/modules/models/mt3/transformer.py",
+      "sha256": "1dd1a17de92abf67cd9019de059834357de89af4500db153c1049a8291280d6d"
+    },
+    {
+      "path": "src/modules/position_encoder.py",
+      "sha256": "9b33ce3bed101d685fabb75a9158e1129417aaec971d28d06a21ca7953ba1ea6"
+    },
+    {
+      "path": "src/modules/transformer.py",
+      "sha256": "2e69f95c2530f0cc2a7f08dc0266456a65bd4dc35327178dbbd039c9bfe05c72"
+    },
+    {
+      "path": "src/tests/integration_test_contrastive_classifier.py",
+      "sha256": "2ddeb0b42d8c55f0d2c648b274eac7f10910d45ee3c6f16e4e5e9a386038602d"
+    },
+    {
+      "path": "src/tests/integration_test_data_generator.py",
+      "sha256": "e33f62626021ac91a8ce07e7c02c08d16c5f962d0e11aa25b754166e812d9e5f"
+    },
+    {
+      "path": "src/tests/test_compute_contrastive_classifier_output.py",
+      "sha256": "20f20b81455e4ec185232d1159153c05aa57fc45b1f353e43a0bdde2424438c4"
+    },
+    {
+      "path": "src/tests/test_contrastive_loss.py",
+      "sha256": "a652bd8c8320a981b1b38c32a137042d3e228e5b4f32f4136e35bb3e0e4fdecb"
+    },
+    {
+      "path": "src/tests/test_unique_obj_ids_data_generator.py",
+      "sha256": "b81b1756859a3cfe96b5b8877651d4e03afcabe8fdcbadee968e48827ed15a64"
+    },
+    {
+      "path": "src/training.py",
+      "sha256": "b11ace81dfa9cdf503f3d98f481c505781030c600eeaad4069e443344c794d8c"
+    },
+    {
+      "path": "src/util/__init__ .py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/util/config.py",
+      "sha256": "31c1d7c2d2358ac6317dad256521fac913e77f2ac2fc0d569b13138fd6ead28c"
+    },
+    {
+      "path": "src/util/generate_data_for_matlab.py",
+      "sha256": "c501d0ce5316d2a6562e61dfac77a0189ae1d32bd5104ccefbb8b672cb98a08c"
+    },
+    {
+      "path": "src/util/load_config_files.py",
+      "sha256": "3bcdc3147108135fd1ebc9b23a5c8a4b1c4e414d248082cb943ba6204b8ddf64"
+    },
+    {
+      "path": "src/util/logger.py",
+      "sha256": "ddbb6a57bc1ee921b772b21d42f9575f115b41b8049f0299c026c09952ade9e6"
+    },
+    {
+      "path": "src/util/misc.py",
+      "sha256": "ecf71c8e4f48069845cc5fa61e106021e48e5fc199b4343a1f467fdd2b0e1221"
+    },
+    {
+      "path": "src/util/plot_results.py",
+      "sha256": "3bfaeb96e1f5adb6e466a96459af8055cae5e5b008151e5ac6b659182ba40ef7"
+    },
+    {
+      "path": "src/util/plotting.py",
+      "sha256": "033d77630a6f71ff97e83fd35d3bb5fcacde33b865d21d843c9aa263c7ee1cbb"
+    },
+    {
+      "path": "src/util/visualize_generated_data_for_matlab.py",
+      "sha256": "c42601e9f807e52d185c4ed1a99ae011ad05dcb06c2ba06b28a737fb9390f665"
+    }
+  ]
+}
